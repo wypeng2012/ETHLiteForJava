@@ -2,6 +2,8 @@
 eth library for java
 
 
+中文文档：[https://blog.csdn.net/wypeng2010/article/details/84985009](https://blog.csdn.net/wypeng2010/article/details/84985009)
+
 **- Use it**
 
 1. first add Bip44ForJava dependencies
