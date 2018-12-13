@@ -43,6 +43,31 @@ publishing{
             from components.java
             artifact sourcesJar
             artifact javadocJar
+
+            pom {
+                name = 'ETHLiteForJava'
+                description = 'A eth library for java'
+                url = 'https://github.com/wypeng2012/ETHLiteForJava/tree/master'
+                licenses {
+                    license {
+                        name = 'The Apache License, Version 2.0'
+                        url = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+                    }
+                }
+                developers {
+                    developer {
+                        name = 'Jerry Wang'
+                        email = 'wypeng2012@gmail.com'
+                        organization = '52it'
+                        organizationUrl = 'https://52it.party/'
+                    }
+                }
+                scm {
+                    connection = 'scm:git:git@github.com:wypeng2012/ETHLiteForJava.git'
+                    developerConnection = 'scm:git:ssh@github.com:wypeng2012/ETHLiteForJava.git'
+                    url = 'https://github.com/wypeng2012/ETHLiteForJava/tree/master'
+                }
+            }
         }
     }
     repositories{
